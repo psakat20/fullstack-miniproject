@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Montserrat";
+    font-family: "Montserrat",sans-serif;
 }
 .container{
     width: 100%;
@@ -119,6 +119,11 @@
     background: #0040efd4;
     border: 2px solid transparent;
     color: white;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+.btn-container button:active{
+    scale: 0.9;
 }
 .container .pic-container img{
     width: 100%;
@@ -147,14 +152,13 @@
 }
 .devolopment .number-text p{
     padding: 10px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     text-align: left;
 }
 .container6{
     width: 100%;
     background: white;
-    border: 1px solid black;
     padding: 50px;
     display: flex;
     align-items: start;
@@ -166,9 +170,314 @@
     display: grid;
     align-items: start;
     justify-content: start;
-    border: 1px solid black;
+    
 }
 .container6 .text .heading-section{
+    width: 80%;
+    padding: 25px;
+    display: grid;
+    align-items: start;
+    justify-content: start;
+    margin-right: 10px;
+    text-align: start;
+}
+.container6 .text .heading-section h2{
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-bottom: 10px;
+}
+.text .heading-section p{
+    font-weight: 510;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.text .heading-section a{
+    text-decoration: none;
+    color: blue;
+}
+.container6 .text .para-section{
+    width: 75%;
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    margin-left: 20%;
+    margin-top: 40px;
+    
+}
+.text .para-section .paragraph{
+    text-align: start;
+    padding: 10px;
+}
+.text .para-section .paragraph p{
+    font-size: 20px;
+    text-align: start;
+    font-weight: 450;
+    line-height: 1.5em;
+}
+.text .para-section button{
+    width: 30%;
+    padding: 12px 11px;
+    margin: 15px;
+    border-radius: 27px;
+    background: #0040efd4;
+    border: 2px solid transparent;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+.text .para-section button:active{
+    scale: 0.9;
+}
+.container .container7{
     width: 100%;
-    font-size:30px;
+    background: #0040efd4;
+    padding: 20px;
+    text-align: center;
+}
+.container7 h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 140px;
+    font-weight: 800;
+}
+.container7 h5{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 25px;
+}
+.container .container8{
+    width: 100%;
+    padding: 10px 60px;
+    background: rgba(248, 86, 27, 0.863);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.container8 .services-info{
+    width: 100%;
+}
+.container8 .services-info h2{
+    font-size: 48px;
+    font-weight: 600;
+    margin: 30px 0;
+    text-transform: uppercase;
+    color: white;
+}
+.container8 .services-info .input-box{
+    width: 100%;
+    border-bottom: 2px solid #f4dda6;
+    margin-bottom: 25px;
+}
+.container8 .services-info .input-box h4{
+    margin: 5px 0;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #f4dda6;
+}
+.container8 .services-info .input-box p{
+    width: 75%;
+    color: #f6c552d3;
+    font-size: 18px;
+    font-weight: 510;
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+.container8 .services-info .heading-btn{
+    margin-bottom: 15%;
+}
+.container8 .services-info .heading-btn h2{
+    width: 80%;
+    margin-top: 10%;
+}
+.services-info .heading-btn button{
+    width: 15%;
+    padding: 12px 10px;
+    border-radius: 27px;
+    background: #0040efd4;
+    border: 2px solid transparent;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+.services-info .heading-btn button:active{
+    scale: 0.9;
+}
+.container.img-section{
+    width: 100%;
+    background: white;
+    
+}
+.img-section .four-img{
+    width: 80%;
+    position: absolute;
+    top: 700%;
+    left: 8%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 5%;
+}
+.four-img .img-div{
+    width: 80%;
+    margin-bottom: 22px;
+    
+}
+.four-img .img-div img{
+    width: 100%;
+    object-fit: fill;
+}
+.four-img .img-div p{
+    font-size: 18px;
+    font-weight: 450;
+    margin-top: 22px;
+}
+.container9{
+    width: 100%;
+    background: white;
+    padding-top: 48%;
+}
+.container9 .client-review{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9ebdf;
+}
+.container9 .client-review i{
+    margin: 0 50px;
+    padding: 5px;
+    font-size: 30px;
+    margin-top: 15%;
+    font-weight: 300;
+    border-radius: 50%;
+    background: rgba(248, 86, 27, 0.863);
+    color: white;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+.container9 .client-review i:active{
+    scale: 0.9;
+}
+.container9 .client-review .client-info{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+.client-review .client-info h2{
+    font-size: 50px;
+    font-weight: 550;
+    margin: 25px 0;
+    text-transform: uppercase;
+}
+.client-review .client-info img{
+    width: 20%;
+    margin-top: 10px;
+}
+.client-review .client-info p{
+    width: 58%;
+    line-height: 1.4em;
+    margin: 10px auto;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 480;
+}
+.client-review .client-info #name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.client-review .client-info .line-div{
+    width: 10%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 0.5em;
+    margin-bottom: 30px;
+}
+.client-info .line-div .line1,
+.client-info .line-div .line2,
+.client-info .line-div .line3{
+    width: 25px;
+    height: 2px;
+    background: blue;
+    border-radius: 15px;
+    border: 1px solid transparent;
+}
+.client-info .line-div .line2{
+    background: black;
+    border: 1px solid black;
+}
+.client-info .line-div .line3{
+    background: black;
+    border: 1px solid black;
+}
+.container10{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+}
+.container10 .last-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container10 .half-div{
+    position: absolute;
+    top: 941%;
+    left: 2%;
+    width: 98%;
+    height: 20%;
+    background: blue;
+}
+.container10 h2{
+    font-size: 150px;
+    color: white;
+    text-transform: uppercase;
+}
+.container10 .input-field{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 1em;
+}
+.container10 .input-field input{
+    width: 55%;
+    padding: 10px;
+    border-radius: 18px;
+    border: 2px solid transparent;
+    font-size: 15px;
+}
+.container10 .input-field button{
+    padding: 10px 22px;
+    background: rgb(248, 86, 27);
+    border: 2px solid transparent;
+    border-radius: 18px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+.container10 .input-field button:active{
+   scale: 0.9;
+}
+.container10 .last-div p{
+    margin-top: 18%;
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
 }
