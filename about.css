@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Montserrat:ital,wght@0,900;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo";
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container .header{
+    width: 100%;
+    height: 30%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: white
+}
+.container .header img{
+    width: 40%;
+    height: 70%;
+    margin-left: 30%;
+}
+.container .header .action-field{
+    width: 100%;
+    padding: 5px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+.header .action-field a{
+    width: 100%;
+    margin: 28px;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+.header .action-field a:hover{
+    color: #fe6e07b5;
+}
+.header .action-field #about{
+    color: #fe6e07;
+    border-bottom: 3px solid#fe6e07;
+}
+.container .container1{
+    width: 100%;
+    text-align: center;
+}
+.container .container1 h2{
+    font-size: 11.5rem;
+    font-weight: 800;
+    color: #2359e8;
+    font-family: Montserrat, sans-serif;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+.container .container2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background: #f9ebdf;
+    padding: 20px;
+}
+.container2 h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 10px auto;
+}
+.container2 img{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.container2 p{
+    width: 62%;
+    margin: 0 auto;
+    text-align: center;
+}
+.container2 #para2{
+    margin: 18px auto;
+}
+.container .container3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: rgba(248, 86, 27, 0.863);
+}
+.container3 img{
+    width: 20%;
+    background: rgba(248, 86, 27, 0.863);
+    color: aqua;
+}
+.container5{
+    width: 100%;
+    background: white;
+    padding: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between
+}
+.container5 .text{
+    width: 70%;
+    text-align: center;
+    display: grid;
+    align-items: start;
+    justify-content: start;
+    
+}
+.container5 .text .heading-section{
+    width: 80%;
+    padding: 25px;
+    display: grid;
+    align-items: start;
+    justify-content: start;
+    margin-right: 10px;
+    text-align: start;
+}
+.container5 .text .heading-section h2{
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-bottom: 10px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.container5 .text .para-section{
+    width: 60%;
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    margin-left: 30%;
+    margin-top: 40px;
+    
+}
+.text .para-section .paragraph{
+    text-align: start;
+    padding: 10px;
+}
+.text .para-section .paragraph p{
+    font-size: 20px;
+    text-align: start;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.container6 .devolopment{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #f9ebdf;
+}
+.container6 .devolopment .number-text{
+    padding: 15px;
+}
+.devolopment .number-text h2{
+    text-align: justify;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+}
+.devolopment .number-text p{
+    width: 80%;
+    line-height: 1.2em;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+.container .container7{
+    width: 100%;
+    background: #0040efd4;
+    padding: 20px;
+    text-align: center;
+}
+.container7 h2{
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    font-size: 140px;
+    line-height: 1em;
+    font-weight: 900;
+}
+.container7 h5{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 25px;
+}
+

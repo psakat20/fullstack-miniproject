@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Montserrat:ital,wght@0,900;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Cairo";
 }
 .container{
     width: 100%;
@@ -37,15 +37,16 @@
     margin: 28px;
     text-decoration: none;
     color: black;
-    font-size: 15px;
-    font-weight: 510;
-    transition: all ease-in 0.2s;
-    padding: 6px 8px;
-    
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 20px;
 }
 .header .action-field a:hover{
-    color: rgb(226, 149, 6);
-    border-bottom: 3px solid rgb(226, 149, 6);
+    color: #fe6e07b5;
+}
+.header .action-field #home{
+    color: #fe6e07;
+    border-bottom: 3px solid#fe6e07;
 }
 .container-first{
     width: 100%;
@@ -58,58 +59,63 @@
 }
 .container-first .first{
     width: 100%;
-    margin-left: 15%;
+    text-align: center;
 }
 .container-first .first h2{
-    font-size: 190px;
+    font-size: 12.5rem;
     font-weight: 900;
-    color: #0040efd4;
+    color: #2359e8;
+    font-family: Montserrat, sans-serif;
+    margin: 20px auto;
 }
 .circle-container{
     width: 75%;
     display: flex;
     align-items: start;
     justify-content: end;
-    margin-left: 8%;
+    margin-left: 14%;
     gap: 1.5em;
 }
 .circle-container .circle{
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
+    width: 65px;
+    height: 65px;
+    padding: 20px;
     border-radius: 50%;
     margin-left: 90px;
-    background: rgba(248, 86, 27, 0.863);
-    border: 1px solid rgb(226, 149, 6);
+    background: #fe6e07;
 }
 .circle-container .text{
-    width: 60%;
-    padding: 5px;
+    width:100%;
+    margin-left: 16px;
 }
 .circle-container .text h2{
-    font-size: 43px;
+    font-size: 65px;
     font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    margin-left: 20px;
 }
 .circle-container .text p{
-    font-size: 12px;
+    font-size: 1.125rem;
     margin-top: 15px;
-    line-height: 20px;
+    line-height: 1.6;
+    margin-left: 20px;
 }
 .container .btn-container{
     width: 100%;
-    height: 80%;
     margin-top:  40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 9%;
+    padding: 50px 12%;
     background: white
 }
 .btn-container p{
     width: 60%;
+    line-height: 1em;
     margin-top: 20px;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 700;
     margin-left: 5%;
 }
 .btn-container button{
@@ -148,12 +154,13 @@
     font-weight: 400;
     font-size: 40px;
     letter-spacing: 0.1em;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .devolopment .number-text p{
-    padding: 10px;
+    width: 80%;
+    line-height: 1.2em;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: left;
 }
 .container6{
@@ -186,9 +193,10 @@
     font-weight: 700;
     letter-spacing: 0.1rem;
     margin-bottom: 10px;
+    line-height: 1em;
 }
 .text .heading-section p{
-    font-weight: 510;
+    font-weight: 400;
     font-size: 15px;
     margin-bottom: 5px;
 }
@@ -212,7 +220,7 @@
 .text .para-section .paragraph p{
     font-size: 20px;
     text-align: start;
-    font-weight: 450;
+    font-weight: 400;
     line-height: 1.5em;
 }
 .text .para-section button{
@@ -237,10 +245,13 @@
     text-align: center;
 }
 .container7 h2{
+    width: 60%;
+    margin: 0 auto;
     color: white;
     text-transform: uppercase;
     font-size: 140px;
-    font-weight: 800;
+    line-height: 1em;
+    font-weight: 900;
 }
 .container7 h5{
     font-size: 25px;
@@ -264,7 +275,7 @@
 .container8 .services-info h2{
     font-size: 48px;
     font-weight: 600;
-    margin: 30px 0;
+    margin: 25px 0;
     text-transform: uppercase;
     color: white;
 }
@@ -274,7 +285,7 @@
     margin-bottom: 25px;
 }
 .container8 .services-info .input-box h4{
-    margin: 5px 0;
+    line-height: 1.2em;
     font-size: 28px;
     font-weight: 400;
     text-transform: uppercase;
@@ -294,6 +305,7 @@
 .container8 .services-info .heading-btn h2{
     width: 80%;
     margin-top: 10%;
+    font-weight: 700;
 }
 .services-info .heading-btn button{
     width: 15%;
@@ -317,8 +329,8 @@
 .img-section .four-img{
     width: 80%;
     position: absolute;
-    top: 700%;
-    left: 8%;
+    top: 722%;
+    left: 10%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-bottom: 5%;
@@ -372,7 +384,7 @@
 }
 .client-review .client-info h2{
     font-size: 50px;
-    font-weight: 550;
+    font-weight: 700;
     margin: 25px 0;
     text-transform: uppercase;
 }
@@ -391,7 +403,7 @@
 }
 .client-review .client-info #name{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .client-review .client-info .line-div{
     width: 10%;
@@ -436,7 +448,7 @@
 }
 .container10 .half-div{
     position: absolute;
-    top: 941%;
+    top: 972%;
     left: 2%;
     width: 98%;
     height: 20%;
@@ -452,21 +464,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
     gap: 1em;
 }
 .container10 .input-field input{
     width: 55%;
-    padding: 10px;
-    border-radius: 18px;
+    padding: 8px;
+    border-radius: 25px;
     border: 2px solid transparent;
     font-size: 15px;
 }
 .container10 .input-field button{
-    padding: 10px 22px;
+    padding: 8px 22px;
     background: rgb(248, 86, 27);
     border: 2px solid transparent;
-    border-radius: 18px;
+    border-radius: 25px;
     font-size: 15px;
     color: white;
     cursor: pointer;
